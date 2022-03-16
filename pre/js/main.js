@@ -1,6 +1,6 @@
 import 'url-search-params-polyfill';
 import './modules/tabs';
-import * as charts from './charts/charts';
+import { initChart } from './charts/charts';
 
 //Necesario para importar los estilos de forma automática en la etiqueta 'style' del html final
 import '../css/main.scss';
