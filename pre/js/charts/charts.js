@@ -25,6 +25,7 @@ export function initChart(iframe) {
         if (error) throw error;
 
         let dataFiltered = data.filter(function(item) {
+            console.log(item);
             if(item.Edad != 'TOTAL' && item['Masa corporal adultos'] == 'Obesidad') {
                 return item;
             }
@@ -49,13 +50,9 @@ export function initChart(iframe) {
             .range([0, width])
             .padding([0.35]);
 
-        let xAxis = function(g) {
-            g.call(d3.axisBottom(x));
-        }
-
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis);
+            .call(d3.axisBottom(x));
 
         let y = d3.scaleLinear()
             .domain([0, 30])
