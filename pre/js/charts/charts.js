@@ -25,7 +25,6 @@ export function initChart(iframe) {
         if (error) throw error;
 
         let dataFiltered = data.filter(function(item) {
-            console.log(item);
             if(item.Edad != 'TOTAL' && item['Masa corporal adultos'] == 'Obesidad') {
                 return item;
             }
@@ -77,7 +76,7 @@ export function initChart(iframe) {
                 .append("g")
                 .attr("transform", function(d) { return "translate(" + x(d.Edad) + ",0)"; })
                 .selectAll("rect")
-                .data(function(d) { console.log(d); return tipos.map(function(key) { console.log(key); return {key: key, value: d[key]}; }); })
+                .data(function(d) { return tipos.map(function(key) { return {key: key, value: d[key]}; }); })
                 .enter()
                 .append("rect")
                 .attr('class', 'prueba')
@@ -88,7 +87,7 @@ export function initChart(iframe) {
                 .attr("height", function(d) { return height - y(0); })
                 .transition()
                 .duration(2000)
-                .attr("y", function(d) { console.log(d.value); return y(d.value); })                
+                .attr("y", function(d) { return y(d.value); })                
                 .attr("height", function(d) { return height - y(d.value); });                
         }
 
