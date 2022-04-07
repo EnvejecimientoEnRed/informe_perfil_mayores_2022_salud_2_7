@@ -30,7 +30,7 @@ export function initChart(iframe) {
             }
         });
 
-        let margin = {top: 10, right: 10, bottom: 80, left: 30},
+        let margin = {top: 10, right: 10, bottom: 20, left: 30},
             width = document.getElementById('chart').clientWidth - margin.left - margin.right,
             height = document.getElementById('chart').clientHeight - margin.top - margin.bottom;
 
@@ -129,13 +129,15 @@ export function initChart(iframe) {
         setRRSSLinks('obesidad_espana');
 
         //Captura de pantalla de la visualización
-        setChartCanvas();
-        setCustomCanvas();
+        //setChartCanvas();
+        setTimeout(() => {
+            setCustomCanvas();
+        }, 6000);       
 
         let pngDownload = document.getElementById('pngImage');
 
         pngDownload.addEventListener('click', function(){
-            setChartCanvasImage('obesidad_espana');
+            //setChartCanvasImage('obesidad_espana');
             setChartCustomCanvasImage('obesidad_espana');
         });
 
