@@ -4,43 +4,43 @@ TOTAL,Peso insuficiente,2.08,0.84,3.28
 TOTAL,Normopeso,44.28,37.76,50.63
 TOTAL,Sobrepeso,37.63,44.9,30.56
 TOTAL,Obesidad,16.01,16.5,15.54
-De 18 a 24 años,TOTAL,100,100,100
-De 18 a 24 años,Peso insuficiente,5.93,3.26,8.87
-De 18 a 24 años,Normopeso,69.17,68.85,69.52
-De 18 a 24 años,Sobrepeso,20.3,23.32,16.96
-De 18 a 24 años,Obesidad,4.61,4.57,4.65
-De 25 a 34 años,TOTAL,100,100,100
-De 25 a 34 años,Peso insuficiente,3.78,1.22,6.4
-De 25 a 34 años,Normopeso,58.55,53.8,63.44
-De 25 a 34 años,Sobrepeso,27.81,35.51,19.9
-De 25 a 34 años,Obesidad,9.86,9.47,10.25
-De 35 a 44 años,TOTAL,100,100,100
-De 35 a 44 años,Peso insuficiente,1.86,0.38,3.34
-De 35 a 44 años,Normopeso,48.46,39.12,57.79
-De 35 a 44 años,Sobrepeso,35.21,44.7,25.73
-De 35 a 44 años,Obesidad,14.47,15.8,13.14
-De 45 a 54 años,TOTAL,100,100,100
-De 45 a 54 años,Peso insuficiente,0.86,0.16,1.58
-De 45 a 54 años,Normopeso,41.88,31.65,52.42
-De 45 a 54 años,Sobrepeso,40.15,49.3,30.74
-De 45 a 54 años,Obesidad,17.1,18.89,15.26
-De 55 a 64 años,TOTAL,100,100,100
-De 55 a 64 años,Peso insuficiente,1.54,0.62,2.43
-De 55 a 64 años,Normopeso,34.29,26.16,42.21
-De 55 a 64 años,Sobrepeso,43.3,49.99,36.76
-De 55 a 64 años,Obesidad,20.88,23.22,18.6
-De 65 a 74 años,TOTAL,100,100,100
-De 65 a 74 años,Peso insuficiente,0.75,0.49,0.98
-De 65 a 74 años,Normopeso,30.89,25.14,35.82
-De 65 a 74 años,Sobrepeso,46.22,51.93,41.34
-De 65 a 74 años,Obesidad,22.13,22.44,21.86
-De 75 a 84 años,TOTAL,100,100,100
-De 75 a 84 años,Peso insuficiente,1.17,0.7,1.59
-De 75 a 84 años,Normopeso,30.1,26.38,33.5
-De 75 a 84 años,Sobrepeso,48.12,55.46,41.44
-De 75 a 84 años,Obesidad,20.61,17.46,23.47
-De 85 y más años,TOTAL,100,100,100
-De 85 y más años,Peso insuficiente,3.09,2.66,3.34
-De 85 y más años,Normopeso,38.92,36.81,40.16
-De 85 y más años,Sobrepeso,40.42,47.81,36.05
-De 85 y más años,Obesidad,17.58,12.72,20.45
+18-24,TOTAL,100,100,100
+18-24,Peso insuficiente,5.93,3.26,8.87
+18-24,Normopeso,69.17,68.85,69.52
+18-24,Sobrepeso,20.3,23.32,16.96
+18-24,Obesidad,4.61,4.57,4.65
+25-34,TOTAL,100,100,100
+25-34,Peso insuficiente,3.78,1.22,6.4
+25-34,Normopeso,58.55,53.8,63.44
+25-34,Sobrepeso,27.81,35.51,19.9
+25-34,Obesidad,9.86,9.47,10.25
+35-44,TOTAL,100,100,100
+35-44,Peso insuficiente,1.86,0.38,3.34
+35-44,Normopeso,48.46,39.12,57.79
+35-44,Sobrepeso,35.21,44.7,25.73
+35-44,Obesidad,14.47,15.8,13.14
+45-54,TOTAL,100,100,100
+45-54,Peso insuficiente,0.86,0.16,1.58
+45-54,Normopeso,41.88,31.65,52.42
+45-54,Sobrepeso,40.15,49.3,30.74
+45-54,Obesidad,17.1,18.89,15.26
+55-64,TOTAL,100,100,100
+55-64,Peso insuficiente,1.54,0.62,2.43
+55-64,Normopeso,34.29,26.16,42.21
+55-64,Sobrepeso,43.3,49.99,36.76
+55-64,Obesidad,20.88,23.22,18.6
+65-74,TOTAL,100,100,100
+65-74,Peso insuficiente,0.75,0.49,0.98
+65-74,Normopeso,30.89,25.14,35.82
+65-74,Sobrepeso,46.22,51.93,41.34
+65-74,Obesidad,22.13,22.44,21.86
+75-84,TOTAL,100,100,100
+75-84,Peso insuficiente,1.17,0.7,1.59
+75-84,Normopeso,30.1,26.38,33.5
+75-84,Sobrepeso,48.12,55.46,41.44
+75-84,Obesidad,20.61,17.46,23.47
+85+,TOTAL,100,100,100
+85+,Peso insuficiente,3.09,2.66,3.34
+85+,Normopeso,38.92,36.81,40.16
+85+,Sobrepeso,40.42,47.81,36.05
+85+,Obesidad,17.58,12.72,20.45
