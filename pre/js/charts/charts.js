@@ -23,7 +23,7 @@ export function initChart() {
             }
         });
 
-        let margin = {top: 5, right: 10, bottom: 20, left: 22.5},
+        let margin = {top: 12.5, right: 10, bottom: 25, left: 22.5},
             width = document.getElementById('chart').clientWidth - margin.left - margin.right,
             height = document.getElementById('chart').clientHeight - margin.top - margin.bottom;
 
@@ -124,7 +124,7 @@ export function initChart() {
                     let currentAge = this.parentNode.classList.value;
 
                     let html = '<p class="chart__tooltip--title">Grupo edad: ' + currentAge.split('_')[1] + '</p>' + 
-                            '<p class="chart__tooltip--text">El porcentaje de obesidad para <b>' + d.key.split('_')[0].toLowerCase() + '</b> en este grupo de edad alcanza el <b>' + numberWithCommas3(parseFloat(d.value)) + ' %</b></p>';
+                            '<p class="chart__tooltip--text">El porcentaje de obesidad para <b>' + d.key.split('_')[0].toLowerCase() + '</b> en este grupo de edad alcanza el <b>' + numberWithCommas3(parseFloat(d.value)) + '%</b></p>';
                     
                     tooltip.html(html);
 
