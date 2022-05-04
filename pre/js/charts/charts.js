@@ -124,7 +124,7 @@ export function initChart() {
                     let currentAge = this.parentNode.classList.value;
 
                     let html = '<p class="chart__tooltip--title">Grupo edad: ' + currentAge.split('_')[1] + '</p>' + 
-                            '<p class="chart__tooltip--text">El porcentaje de obesidad para <b>' + d.key.split('_')[0].toLowerCase() + '</b> en este grupo de edad alcanza el <b>' + numberWithCommas3(parseFloat(d.value)) + '%</b></p>';
+                            '<p class="chart__tooltip--text">El porcentaje de obesidad en <b>' + d.key.split('_')[0].toLowerCase() + '</b> es del <b>' + numberWithCommas3(parseFloat(d.value)) + '%</b></p>';
                     
                     tooltip.html(html);
 
