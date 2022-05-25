@@ -14,7 +14,7 @@ let tooltip = d3.select('#tooltip');
 
 export function initChart() {
     //Lectura de datos
-    d3.csv('https://raw.githubusercontent.com/CarlosMunozDiazCSIC/informe_perfil_mayores_2022_salud_2_7/main/data/obesidad_ense_2020_v2.csv', function(error,data) {
+    d3.csv('https://raw.githubusercontent.com/EnvejecimientoEnRed/informe_perfil_mayores_2022_salud_2_7/main/data/obesidad_ense_2020_v2.csv', function(error,data) {
         if (error) throw error;
 
         let dataFiltered = data.filter(function(item) {
@@ -150,7 +150,7 @@ export function initChart() {
         }
 
         function animateChart() {
-            svg.selectAll(".prueba")
+            svg.selectAll(".rect")
                 .attr("x", function(d) { return xSubgroup(d.key); })
                 .attr("width", xSubgroup.bandwidth())
                 .attr("fill", function(d) { return color(d.key); })
@@ -172,6 +172,10 @@ export function initChart() {
         //Animación del gráfico
         document.getElementById('replay').addEventListener('click', function() {
             animateChart();
+
+            setTimeout(() => {
+                setChartCanvas();
+            }, 3000);
         });
 
         /////
@@ -187,7 +191,9 @@ export function initChart() {
         setRRSSLinks('obesidad_espana');
 
         //Captura de pantalla de la visualización
-        setChartCanvas();      
+        setTimeout(() => {
+            setChartCanvas();
+        }, 3000);    
 
         let pngDownload = document.getElementById('pngImage');
 
